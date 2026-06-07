@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Revio — Digital Agency</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-follower" id="cursorFollower"></div>
+  <div class="noise-overlay"></div>
+
+  <!-- NAV -->
+  <nav class="nav" id="nav">
+    <div class="nav-inner">
+      <a href="#" class="nav-logo">
+        <span class="logo-mark">R</span>
+        <span class="logo-text">REVIO</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#work" class="nav-link">Work</a></li>
+        <li><a href="#services" class="nav-link">Services</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#process" class="nav-link">Process</a></li>
+      </ul>
+      <a href="#contact" class="btn-nav">Let's Talk <span class="btn-arrow">↗</span></a>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <ul>
+      <li><a href="#work" class="mobile-link">Work</a></li>
+      <li><a href="#services" class="mobile-link">Services</a></li>
+      <li><a href="#about" class="mobile-link">About</a></li>
+      <li><a href="#process" class="mobile-link">Process</a></li>
+      <li><a href="#contact" class="mobile-link mobile-cta">Let's Talk ↗</a></li>
+    </ul>
+  </div>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero-bg">
+      <div class="orb orb-1"></div>
+      <div class="orb orb-2"></div>
+      <div class="orb orb-3"></div>
+      <div class="grid-overlay"></div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-badge reveal">
+        <span class="badge-dot"></span>
+        Available for projects — 2025
+      </div>
+      <h1 class="hero-title">
+        <span class="line reveal" data-delay="0">We craft</span>
+        <span class="line line-accent reveal" data-delay="100">digital</span>
+        <span class="line reveal" data-delay="200">experiences</span>
+      </h1>
+      <p class="hero-sub reveal" data-delay="300">
+        A boutique creative agency building brands,<br>
+        websites &amp; campaigns that move markets.
+      </p>
+      <div class="hero-actions reveal" data-delay="400">
+        <a href="#work" class="btn-primary">
+          <span>View Our Work</span>
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8H13M13 8L8 3M13 8L8 13" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+        <a href="#about" class="btn-ghost">Our Story</a>
+      </div>
+      <div class="hero-stats reveal" data-delay="500">
+        <div class="stat">
+          <span class="stat-num" data-count="120">0</span><span class="stat-plus">+</span>
+          <span class="stat-label">Projects</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-num" data-count="8">0</span><span class="stat-plus">+</span>
+          <span class="stat-label">Years</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-num" data-count="98">0</span><span class="stat-plus">%</span>
+          <span class="stat-label">Satisfaction</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero-scroll">
+      <div class="scroll-line"></div>
+      <span>Scroll</span>
+    </div>
+  </section>
+
+  <!-- MARQUEE -->
+  <div class="marquee-section">
+    <div class="marquee-track">
+      <div class="marquee-inner">
+        <span>Brand Identity</span><span class="dot">·</span>
+        <span>Web Design</span><span class="dot">·</span>
+        <span>UI/UX</span><span class="dot">·</span>
+        <span>Motion Design</span><span class="dot">·</span>
+        <span>Development</span><span class="dot">·</span>
+        <span>Strategy</span><span class="dot">·</span>
+        <span>Brand Identity</span><span class="dot">·</span>
+        <span>Web Design</span><span class="dot">·</span>
+        <span>UI/UX</span><span class="dot">·</span>
+        <span>Motion Design</span><span class="dot">·</span>
+        <span>Development</span><span class="dot">·</span>
+        <span>Strategy</span><span class="dot">·</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- WORK -->
+  <section class="work" id="work">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag reveal">Selected Work</div>
+        <h2 class="section-title reveal">Crafted with<br><em>intention</em></h2>
+      </div>
+      <div class="projects-grid">
+        <div class="project-card project-large reveal">
+          <div class="project-img" style="background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);">
+            <div class="project-overlay">
+              <a href="#" class="project-link">View Case ↗</a>
+            </div>
+            <div class="project-mockup mockup-1">
+              <div class="mock-browser">
+                <div class="mock-bar"><span></span><span></span><span></span></div>
+                <div class="mock-body"></div>
+              </div>
+            </div>
+          </div>
+          <div class="project-info">
+            <span class="project-tag">Brand + Web</span>
+            <h3 class="project-name">Lumina Finance</h3>
+            <p class="project-desc">Full brand identity and fintech web platform</p>
+          </div>
+        </div>
+        <div class="project-card reveal" data-delay="100">
+          <div class="project-img" style="background: linear-gradient(135deg, #1a472a, #2d6a4f, #52b788);">
+            <div class="project-overlay">
+              <a href="#" class="project-link">View Case ↗</a>
+            </div>
+            <div class="project-mockup mockup-2">
+              <div class="mock-phone"><div class="mock-screen"></div></div>
+            </div>
+          </div>
+          <div class="project-info">
+            <span class="project-tag">Mobile App</span>
+            <h3 class="project-name">EcoTrack</h3>
+            <p class="project-desc">Sustainability tracking app UI/UX</p>
+          </div>
+        </div>
+        <div class="project-card reveal" data-delay="150">
+          <div class="project-img" style="background: linear-gradient(135deg, #7b2d00, #c1440e, #ff6b35);">
+            <div class="project-overlay">
+              <a href="#" class="project-link">View Case ↗</a>
+            </div>
+            <div class="project-mockup mockup-3">
+              <div class="mock-card">
+                <div class="mock-line long"></div>
+                <div class="mock-line short"></div>
+                <div class="mock-circle"></div>
+              </div>
+            </div>
+          </div>
+          <div class="project-info">
+            <span class="project-tag">Branding</span>
+            <h3 class="project-name">Ember Studios</h3>
+            <p class="project-desc">Creative studio identity system</p>
+          </div>
+        </div>
+        <div class="project-card project-wide reveal" data-delay="200">
+          <div class="project-img" style="background: linear-gradient(135deg, #1a1a2e, #16213e, #0f3460);">
+            <div class="project-overlay">
+              <a href="#" class="project-link">View Case ↗</a>
+            </div>
+            <div class="project-mockup mockup-4">
+              <div class="mock-dash">
+                <div class="mock-sidebar"></div>
+                <div class="mock-main">
+                  <div class="mock-widget"></div>
+                  <div class="mock-widget"></div>
+                  <div class="mock-widget wide"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="project-info">
+            <span class="project-tag">Dashboard + Dev</span>
+            <h3 class="project-name">Nexus Analytics</h3>
+            <p class="project-desc">Enterprise data visualization platform</p>
+          </div>
+        </div>
+      </div>
+      <div class="work-cta reveal">
+        <a href="#" class="btn-outline">See All Projects <span>→</span></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="services" id="services">
+    <div class="container">
+      <div class="services-inner">
+        <div class="services-left">
+          <div class="section-tag reveal">What We Do</div>
+          <h2 class="section-title reveal">End-to-end<br><em>creative</em><br>solutions</h2>
+          <p class="services-desc reveal">From brand strategy to final pixel, we partner with ambitious companies to create work that lasts.</p>
+          <a href="#contact" class="btn-primary reveal">Start a Project ↗</a>
+        </div>
+        <div class="services-right">
+          <div class="service-item reveal">
+            <div class="service-num">01</div>
+            <div class="service-body">
+              <h3>Brand Identity</h3>
+              <p>Logo systems, visual language, brand guidelines, and tone of voice that define who you are.</p>
+              <div class="service-tags"><span>Logo</span><span>Guidelines</span><span>Typography</span></div>
+            </div>
+          </div>
+          <div class="service-item reveal" data-delay="100">
+            <div class="service-num">02</div>
+            <div class="service-body">
+              <h3>Web Design &amp; Dev</h3>
+              <p>Pixel-perfect websites built for performance, conversion, and delight across every device.</p>
+              <div class="service-tags"><span>Webflow</span><span>React</span><span>CMS</span></div>
+            </div>
+          </div>
+          <div class="service-item reveal" data-delay="200">
+            <div class="service-num">03</div>
+            <div class="service-body">
+              <h3>UI/UX Design</h3>
+              <p>Intuitive product interfaces and user experiences backed by research and tested with real users.</p>
+              <div class="service-tags"><span>Research</span><span>Figma</span><span>Prototyping</span></div>
+            </div>
+          </div>
+          <div class="service-item reveal" data-delay="300">
+            <div class="service-num">04</div>
+            <div class="service-body">
+              <h3>Motion &amp; Content</h3>
+              <p>Brand films, animated assets, and social content that stop thumbs and tell compelling stories.</p>
+              <div class="service-tags"><span>Animation</span><span>Video</span><span>Social</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="about-inner">
+        <div class="about-visual reveal">
+          <div class="about-img-wrap">
+            <div class="about-img">
+              <div class="img-accent"></div>
+              <div class="team-grid">
+                <div class="team-block b1"></div>
+                <div class="team-block b2"></div>
+                <div class="team-block b3"></div>
+                <div class="team-block b4"></div>
+              </div>
+            </div>
+            <div class="about-badge-float">
+              <span class="badge-icon">✦</span>
+              <span>Award-winning<br>Design Studio</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-text">
+          <div class="section-tag reveal">Who We Are</div>
+          <h2 class="section-title reveal">A team of<br><em>makers</em> &amp; thinkers</h2>
+          <p class="reveal">Founded in 2017, Revio is a collective of strategists, designers, and developers obsessed with craft. We believe great design is the intersection of beauty, function, and meaning.</p>
+          <p class="reveal" data-delay="100">We work with startups and established brands alike — from Series A ventures to Fortune 500 companies — bringing the same level of rigor and care to every project.</p>
+          <div class="about-values reveal" data-delay="200">
+            <div class="value">
+              <div class="value-icon">◈</div>
+              <div><strong>Craft First</strong><span>Details that define excellence</span></div>
+            </div>
+            <div class="value">
+              <div class="value-icon">◈</div>
+              <div><strong>Strategy-Led</strong><span>Every decision has a reason</span></div>
+            </div>
+            <div class="value">
+              <div class="value-icon">◈</div>
+              <div><strong>Built to Last</strong><span>Timeless over trendy</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROCESS -->
+  <section class="process" id="process">
+    <div class="container">
+      <div class="section-header centered">
+        <div class="section-tag reveal">How We Work</div>
+        <h2 class="section-title reveal">Our process,<br>your <em>peace of mind</em></h2>
+      </div>
+      <div class="process-steps">
+        <div class="process-step reveal">
+          <div class="step-num">01</div>
+          <div class="step-icon">◎</div>
+          <h3>Discovery</h3>
+          <p>Deep-dive into your business, goals, audience, and competitive landscape.</p>
+        </div>
+        <div class="process-connector"></div>
+        <div class="process-step reveal" data-delay="150">
+          <div class="step-num">02</div>
+          <div class="step-icon">◈</div>
+          <h3>Strategy</h3>
+          <p>Define positioning, messaging hierarchy, and a creative direction roadmap.</p>
+        </div>
+        <div class="process-connector"></div>
+        <div class="process-step reveal" data-delay="300">
+          <div class="step-num">03</div>
+          <div class="step-icon">◇</div>
+          <h3>Design</h3>
+          <p>Crafting visuals, prototypes, and systems that bring your brand to life.</p>
+        </div>
+        <div class="process-connector"></div>
+        <div class="process-step reveal" data-delay="450">
+          <div class="step-num">04</div>
+          <div class="step-icon">◉</div>
+          <h3>Launch</h3>
+          <p>Build, test, deploy — then support your growth with ongoing partnership.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="testimonials">
+    <div class="container">
+      <div class="section-tag reveal centered">Kind Words</div>
+      <div class="testimonials-track" id="testimonialsTrack">
+        <div class="testimonial-card">
+          <div class="quote-mark">"</div>
+          <p>Revio didn't just design our website — they transformed how we present ourselves to the world. The results were immediate and remarkable.</p>
+          <div class="testimonial-author">
+            <div class="author-avatar" style="background: linear-gradient(135deg, #667eea, #764ba2);"></div>
+            <div><strong>Sarah Chen</strong><span>CEO, Lumina Finance</span></div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="quote-mark">"</div>
+          <p>The team's attention to detail is unmatched. They asked the right questions, challenged our assumptions, and delivered beyond expectations.</p>
+          <div class="testimonial-author">
+            <div class="author-avatar" style="background: linear-gradient(135deg, #11998e, #38ef7d);"></div>
+            <div><strong>Marcus Rivera</strong><span>Founder, EcoTrack</span></div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="quote-mark">"</div>
+          <p>Working with Revio felt like having an in-house creative team that actually cared about our mission as much as we did. Truly exceptional partners.</p>
+          <div class="testimonial-author">
+            <div class="author-avatar" style="background: linear-gradient(135deg, #f7971e, #ffd200);"></div>
+            <div><strong>Priya Nair</strong><span>CMO, Nexus Analytics</span></div>
+          </div>
+        </div>
+      </div>
+      <div class="testimonials-nav">
+        <button class="tnav-btn" id="tPrev">←</button>
+        <div class="tnav-dots" id="tDots"></div>
+        <button class="tnav-btn" id="tNext">→</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- CLIENTS -->
+  <section class="clients">
+    <div class="container">
+      <p class="clients-label reveal">Trusted by leading companies</p>
+      <div class="clients-logos">
+        <div class="client-logo reveal"><span>Lumina</span></div>
+        <div class="client-logo reveal" data-delay="60"><span>Nexus</span></div>
+        <div class="client-logo reveal" data-delay="120"><span>EcoTrack</span></div>
+        <div class="client-logo reveal" data-delay="180"><span>Ember</span></div>
+        <div class="client-logo reveal" data-delay="240"><span>Arkiv</span></div>
+        <div class="client-logo reveal" data-delay="300"><span>Solace</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-band" id="contact">
+    <div class="cta-bg">
+      <div class="orb orb-cta1"></div>
+      <div class="orb orb-cta2"></div>
+    </div>
+    <div class="container">
+      <div class="cta-inner reveal">
+        <div class="cta-eyebrow">Ready when you are</div>
+        <h2 class="cta-title">Let's build something<br><em>remarkable</em></h2>
+        <p class="cta-sub">Tell us about your project and we'll be in touch within 24 hours.</p>
+        <form class="cta-form" id="ctaForm">
+          <div class="form-row">
+            <input type="text" name="name" placeholder="Your name" required />
+            <input type="email" name="email" placeholder="Email address" required />
+          </div>
+          <input type="text" name="project" placeholder="Tell us about your project..." />
+          <button type="submit" class="btn-submit">
+            <span>Send Message</span>
+            <svg width="18" height="18" viewBox="0 0 18 18" fill="none"><path d="M3.5 9H14.5M14.5 9L9.5 4M14.5 9L9.5 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+        </form>
+        <div class="form-success" id="formSuccess">
+          <span>✓</span> We got your message! Expect to hear from us soon.
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="#" class="nav-logo">
+            <span class="logo-mark">R</span>
+            <span class="logo-text">REVIO</span>
+          </a>
+          <p>A boutique creative agency crafting brands and digital experiences that move markets.</p>
+        </div>
+        <div class="footer-links-group">
+          <h4>Navigate</h4>
+          <ul>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#process">Process</a></li>
+          </ul>
+        </div>
+        <div class="footer-links-group">
+          <h4>Connect</h4>
+          <ul>
+            <li><a href="#">Twitter / X</a></li>
+            <li><a href="#">LinkedIn</a></li>
+            <li><a href="#">Dribbble</a></li>
+            <li><a href="#">Instagram</a></li>
+          </ul>
+        </div>
+        <div class="footer-links-group">
+          <h4>Say Hello</h4>
+          <ul>
+            <li><a href="mailto:hello@revio.co">hello@revio.co</a></li>
+            <li><a href="#">+1 (415) 000-0000</a></li>
+            <li><a href="#">San Francisco, CA</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2025 Revio Studio. All rights reserved.</span>
+        <span>Crafted with intention ✦</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
