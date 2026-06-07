@@ -17,7 +17,7 @@ A modern startup-style landing page with a strong hero section and conversion-fo
 ### 📸 Preview
 
 #### Hero Section
-![Neo Landing Hero](landing1/hero-section.png)
+![Neo Landing Hero](https://raw.githubusercontent.com/IssamBel/ui-landing-collection/refs/heads/main/Landing1/hero-section.png)
 
 #### Full Page
 ![Neo Landing Full](landing1/full-page.png)
