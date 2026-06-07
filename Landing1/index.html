@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VÖRM Studio — Digital Agency</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Serif+Display:ital@0;1&family=Syne:wght@400;500;600;700;800&family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- CURSOR -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-follower" id="cursorFollower"></div>
+
+  <!-- NAVBAR -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-inner">
+      <a href="#" class="nav-logo">VÖRM<span>.</span></a>
+      <ul class="nav-links">
+        <li><a href="#services">Services</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#testimonials">Clients</a></li>
+      </ul>
+      <a href="#contact" class="nav-cta">Start a project →</a>
+      <button class="nav-burger" id="navBurger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="nav-mobile" id="navMobile">
+      <ul>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#testimonials">Clients</a></li>
+        <li><a href="#contact">Start a project</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero-bg">
+      <div class="hero-orb orb-1"></div>
+      <div class="hero-orb orb-2"></div>
+      <div class="hero-orb orb-3"></div>
+      <div class="hero-grid"></div>
+    </div>
+    <div class="hero-inner">
+      <div class="hero-eyebrow reveal">
+        <span class="dot"></span> Digital Creative Studio — Est. 2019
+      </div>
+      <h1 class="hero-title">
+        <span class="line reveal delay-1">We craft</span>
+        <span class="line italic reveal delay-2">experiences</span>
+        <span class="line reveal delay-3">that convert.</span>
+      </h1>
+      <p class="hero-sub reveal delay-4">
+        Brand identity, web design &amp; digital strategy for ambitious companies<br />
+        ready to leave a mark on the world.
+      </p>
+      <div class="hero-actions reveal delay-5">
+        <a href="#work" class="btn btn-primary">View our work</a>
+        <a href="#contact" class="btn btn-ghost">Get in touch</a>
+      </div>
+      <div class="hero-stats reveal delay-6">
+        <div class="stat"><span class="stat-num">140+</span><span class="stat-label">Projects delivered</span></div>
+        <div class="stat-divider"></div>
+        <div class="stat"><span class="stat-num">98%</span><span class="stat-label">Client satisfaction</span></div>
+        <div class="stat-divider"></div>
+        <div class="stat"><span class="stat-num">7</span><span class="stat-label">Years of excellence</span></div>
+      </div>
+    </div>
+    <div class="hero-scroll-indicator">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- MARQUEE TICKER -->
+  <div class="ticker-wrap">
+    <div class="ticker">
+      <span>Brand Identity</span><span class="dot-sep">✦</span>
+      <span>Web Design</span><span class="dot-sep">✦</span>
+      <span>UI/UX</span><span class="dot-sep">✦</span>
+      <span>Motion Design</span><span class="dot-sep">✦</span>
+      <span>Strategy</span><span class="dot-sep">✦</span>
+      <span>Development</span><span class="dot-sep">✦</span>
+      <span>SEO &amp; Growth</span><span class="dot-sep">✦</span>
+      <span>Brand Identity</span><span class="dot-sep">✦</span>
+      <span>Web Design</span><span class="dot-sep">✦</span>
+      <span>UI/UX</span><span class="dot-sep">✦</span>
+      <span>Motion Design</span><span class="dot-sep">✦</span>
+      <span>Strategy</span><span class="dot-sep">✦</span>
+      <span>Development</span><span class="dot-sep">✦</span>
+      <span>SEO &amp; Growth</span><span class="dot-sep">✦</span>
+    </div>
+  </div>
+
+  <!-- SERVICES -->
+  <section class="services" id="services">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">What we do</span>
+        <h2 class="section-title">Our <em>services</em></h2>
+      </div>
+      <div class="services-grid">
+        <div class="service-card reveal delay-1">
+          <div class="service-num">01</div>
+          <div class="service-icon">◈</div>
+          <h3>Brand Identity</h3>
+          <p>Logos, visual systems, brand guidelines, and everything you need to show up consistently across every touchpoint.</p>
+          <a href="#contact" class="service-link">Explore →</a>
+          <div class="card-glow"></div>
+        </div>
+        <div class="service-card reveal delay-2">
+          <div class="service-num">02</div>
+          <div class="service-icon">◉</div>
+          <h3>Web Design &amp; Dev</h3>
+          <p>Conversion-focused websites built with pixel perfection, lightning performance, and seamless interactions.</p>
+          <a href="#contact" class="service-link">Explore →</a>
+          <div class="card-glow"></div>
+        </div>
+        <div class="service-card reveal delay-3">
+          <div class="service-num">03</div>
+          <div class="service-icon">◐</div>
+          <h3>UI / UX Design</h3>
+          <p>User-centric product design that balances aesthetics with intuitive functionality and measurable results.</p>
+          <a href="#contact" class="service-link">Explore →</a>
+          <div class="card-glow"></div>
+        </div>
+        <div class="service-card reveal delay-4">
+          <div class="service-num">04</div>
+          <div class="service-icon">◇</div>
+          <h3>Digital Strategy</h3>
+          <p>Data-driven growth roadmaps, SEO, content strategy, and performance marketing that scales your business.</p>
+          <a href="#contact" class="service-link">Explore →</a>
+          <div class="card-glow"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT / VALUE -->
+  <section class="about" id="about">
+    <div class="container about-inner">
+      <div class="about-visual reveal">
+        <div class="about-img-wrap">
+          <div class="about-img-placeholder">
+            <div class="about-shape s1"></div>
+            <div class="about-shape s2"></div>
+            <div class="about-shape s3"></div>
+            <div class="about-center-ring"></div>
+            <div class="about-label-float">Since 2019</div>
+          </div>
+        </div>
+        <div class="about-badge">
+          <span class="badge-num">7</span>
+          <span class="badge-text">Years<br />of craft</span>
+        </div>
+      </div>
+      <div class="about-content">
+        <div class="section-header reveal">
+          <span class="section-tag">Our story</span>
+          <h2 class="section-title">Design that <em>means</em> something</h2>
+        </div>
+        <p class="about-body reveal delay-1">
+          VÖRM was founded with a simple belief: great design is never decoration — it's a competitive advantage. We partner with founders, startups, and established brands to translate their vision into visual and digital reality.
+        </p>
+        <p class="about-body reveal delay-2">
+          Our team of strategists, designers, and engineers work in tight collaboration to deliver work that doesn't just look stunning — it performs.
+        </p>
+        <div class="about-values reveal delay-3">
+          <div class="value-item">
+            <span class="value-icon">↗</span>
+            <div>
+              <strong>Intentional</strong>
+              <p>Every pixel has a purpose. We design with intent.</p>
+            </div>
+          </div>
+          <div class="value-item">
+            <span class="value-icon">⟳</span>
+            <div>
+              <strong>Iterative</strong>
+              <p>We test, learn, and refine until it's exceptional.</p>
+            </div>
+          </div>
+          <div class="value-item">
+            <span class="value-icon">◎</span>
+            <div>
+              <strong>Results-Driven</strong>
+              <p>Beauty backed by measurable business outcomes.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PORTFOLIO -->
+  <section class="portfolio" id="work">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Selected work</span>
+        <h2 class="section-title">Our <em>portfolio</em></h2>
+      </div>
+      <div class="portfolio-grid">
+        <div class="portfolio-card card-lg reveal delay-1">
+          <div class="portfolio-thumb">
+            <img
+              src="https://images.unsplash.com/photo-1616587226157-48e49175ee20?w=900&h=520&fit=crop&q=85&auto=format"
+              alt="Solace Health — Brand Identity Project"
+              loading="lazy"
+            />
+            <div class="thumb-overlay">
+              <span class="thumb-cat">Brand Identity</span>
+              <span class="thumb-arrow">↗</span>
+            </div>
+          </div>
+          <div class="portfolio-info">
+            <h3>Solace Health</h3>
+            <p>Brand system &amp; digital presence for a modern wellness platform</p>
+          </div>
+        </div>
+        <div class="portfolio-card reveal delay-2">
+          <div class="portfolio-thumb">
+            <img
+              src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=600&h=420&fit=crop&q=85&auto=format"
+              alt="Arcadia VC — Web Design Project"
+              loading="lazy"
+            />
+            <div class="thumb-overlay">
+              <span class="thumb-cat">Web Design</span>
+              <span class="thumb-arrow">↗</span>
+            </div>
+          </div>
+          <div class="portfolio-info">
+            <h3>Arcadia VC</h3>
+            <p>Venture capital firm redesign</p>
+          </div>
+        </div>
+        <div class="portfolio-card reveal delay-3">
+          <div class="portfolio-thumb">
+            <img
+              src="https://images.unsplash.com/photo-1551650975-87deedd944c3?w=600&h=420&fit=crop&q=85&auto=format"
+              alt="Lune App — UI/UX Design Project"
+              loading="lazy"
+            />
+            <div class="thumb-overlay">
+              <span class="thumb-cat">UI/UX</span>
+              <span class="thumb-arrow">↗</span>
+            </div>
+          </div>
+          <div class="portfolio-info">
+            <h3>Lune App</h3>
+            <p>Fintech mobile product design</p>
+          </div>
+        </div>
+        <div class="portfolio-card card-lg reveal delay-4">
+          <div class="portfolio-thumb">
+            <img
+              src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=900&h=520&fit=crop&q=85&auto=format"
+              alt="Verdana Foods — Brand & E-Commerce Project"
+              loading="lazy"
+            />
+            <div class="thumb-overlay">
+              <span class="thumb-cat">Strategy + Dev</span>
+              <span class="thumb-arrow">↗</span>
+            </div>
+          </div>
+          <div class="portfolio-info">
+            <h3>Verdana Foods</h3>
+            <p>Full brand &amp; e-commerce build for a premium food brand</p>
+          </div>
+        </div>
+      </div>
+      <div class="portfolio-footer reveal">
+        <a href="#contact" class="btn btn-outline">View all projects →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="testimonials" id="testimonials">
+    <div class="testi-bg">
+      <div class="testi-orb"></div>
+    </div>
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">What clients say</span>
+        <h2 class="section-title">Trusted by <em>leaders</em></h2>
+      </div>
+      <div class="testi-grid">
+        <div class="testi-card reveal delay-1">
+          <div class="testi-stars">★★★★★</div>
+          <blockquote>"VÖRM completely transformed how we present our brand. The attention to detail and creative thinking set them apart from every other agency we'd worked with."</blockquote>
+          <div class="testi-author">
+            <div class="author-avatar av1">SL</div>
+            <div>
+              <strong>Sarah Lockwood</strong>
+              <span>CEO, Solace Health</span>
+            </div>
+          </div>
+        </div>
+        <div class="testi-card featured reveal delay-2">
+          <div class="testi-stars">★★★★★</div>
+          <blockquote>"The new website drove a 340% increase in qualified leads within 60 days of launch. Best investment we've made in our growth stack — period."</blockquote>
+          <div class="testi-author">
+            <div class="author-avatar av2">MR</div>
+            <div>
+              <strong>Marcus Reid</strong>
+              <span>Founder, Arcadia VC</span>
+            </div>
+          </div>
+        </div>
+        <div class="testi-card reveal delay-3">
+          <div class="testi-stars">★★★★★</div>
+          <blockquote>"From strategy to execution, the team delivered beyond our expectations. They don't just design — they think deeply about your business and users."</blockquote>
+          <div class="testi-author">
+            <div class="author-avatar av3">JT</div>
+            <div>
+              <strong>Jade Torres</strong>
+              <span>CPO, Lune App</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="client-logos reveal">
+        <span>Trusted by</span>
+        <div class="logos-row">
+          <div class="logo-pill">Solace</div>
+          <div class="logo-pill">Arcadia</div>
+          <div class="logo-pill">Lune</div>
+          <div class="logo-pill">Verdana</div>
+          <div class="logo-pill">Novatek</div>
+          <div class="logo-pill">Prism</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta" id="contact">
+    <div class="cta-bg">
+      <div class="cta-orb cta-orb-1"></div>
+      <div class="cta-orb cta-orb-2"></div>
+    </div>
+    <div class="container cta-inner">
+      <div class="cta-content reveal">
+        <span class="section-tag">Ready to begin?</span>
+        <h2 class="cta-title">Let's build something <em>remarkable</em> together.</h2>
+        <p>We take on a limited number of projects each quarter to ensure every client gets our full focus. Spots fill fast.</p>
+        <form class="cta-form" id="ctaForm">
+          <input type="text" placeholder="Your name" required />
+          <input type="email" placeholder="Your email" required />
+          <input type="text" placeholder="Project type (e.g. Brand + Web)" />
+          <button type="submit" class="btn btn-primary btn-full">Send inquiry →</button>
+        </form>
+        <p class="form-note">We respond within 24 hours. No spam, ever.</p>
+      </div>
+      <div class="cta-info reveal delay-2">
+        <div class="cta-info-card">
+          <h4>Based in</h4>
+          <p>New York, USA<br /><span>Working globally</span></p>
+        </div>
+        <div class="cta-info-card">
+          <h4>Studio email</h4>
+          <p>hello@vorms.studio</p>
+        </div>
+        <div class="cta-info-card">
+          <h4>Current availability</h4>
+          <p class="avail"><span class="avail-dot"></span> Open for Q3 2026</p>
+        </div>
+        <div class="cta-social">
+          <a href="#">Instagram</a>
+          <a href="#">Twitter/X</a>
+          <a href="#">LinkedIn</a>
+          <a href="#">Dribbble</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-top">
+        <a href="#" class="footer-logo">VÖRM<span>.</span></a>
+        <p class="footer-tagline">Crafting digital experiences<br />that leave a mark.</p>
+      </div>
+      <div class="footer-links">
+        <div class="footer-col">
+          <h5>Services</h5>
+          <a href="#">Brand Identity</a>
+          <a href="#">Web Design</a>
+          <a href="#">UI / UX</a>
+          <a href="#">Digital Strategy</a>
+        </div>
+        <div class="footer-col">
+          <h5>Company</h5>
+          <a href="#">About</a>
+          <a href="#">Work</a>
+          <a href="#">Process</a>
+          <a href="#">Careers</a>
+        </div>
+        <div class="footer-col">
+          <h5>Connect</h5>
+          <a href="#">Instagram</a>
+          <a href="#">Twitter / X</a>
+          <a href="#">LinkedIn</a>
+          <a href="#">Dribbble</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container footer-bottom-inner">
+        <span>© 2026 VÖRM Studio. All rights reserved.</span>
+        <span>Privacy Policy · Terms of Service</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
