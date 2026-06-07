@@ -20,7 +20,7 @@ A modern startup-style landing page with a strong hero section and conversion-fo
 ![Neo Landing Hero](https://raw.githubusercontent.com/IssamBel/ui-landing-collection/refs/heads/main/Landing1/hero-section.png)
 
 #### Full Page
-![Neo Landing Full](landing1/full-page.png)
+![Neo Landing Full]((https://raw.githubusercontent.com/IssamBel/ui-landing-collection/refs/heads/main/Landing1/full-page.png)
 
 ---
 
